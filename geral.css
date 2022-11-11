@@ -6,12 +6,20 @@
     border-radius: 10px;
     box-shadow: 5px 5px rgb(25, 190, 135);
 }
+#calculadoraESG {
+    background: rgb(69, 170, 91);
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px rgb(3, 5, 3);
+}
 .spMes {
     border-color: black;
     border-width: 1px;
     border-style: dashed;
-    background: blanchedalmond;
-    color: red;
+    background: rgb(81, 153, 141);
+    color: rgb(255, 255, 255);
     text-align: start;
     border-radius: 10px;
     padding: 5px;
@@ -22,7 +30,17 @@
     background: black;
     color: white;
 }
+#calculadoraESG input:focus {
+    background: black;
+    color: white;
+}
 #calculadora input {
+    background: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+#calculadoraESG input {
     background: black;
     color: white;
     padding: 5px;
@@ -42,13 +60,25 @@
     border-radius: 5px;
     margin-top: 10px;
 }
+#calculadoraESG button {
+    background: rgb(124, 209, 99);
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
 #calculadora button:hover {
     background: rgb(4, 39, 33);
     color: white;
     cursor: pointer;
 }
+#calculadoraESG button:hover {
+    background: rgb(4, 39, 33);
+    color: white;
+    cursor: pointer;
+}
 h3 {
-    color: rgb(43, 168, 127);
+    color: rgb(0, 0, 0);
 }
 .calcF {
     display: none;
@@ -59,3 +89,4 @@ h3 {
 #input-calcF:checked + #calculadora  .calcF {
     display: block;
 }
+
